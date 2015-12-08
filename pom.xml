@@ -54,6 +54,7 @@
                 <configuration>
                     <instructions>
                         <Export-Package>io.katharsis.dispatcher.*,io.katharsis.errorhandling.*,io.katharsis.jackson.*,io.katharsis.locator.*,io.katharsis.queryParams.*,io.katharsis.repository.*,io.katharsis.request.*,io.katharsis.resource.*,io.katharsis.response.*,io.katharsis.utils.*</Export-Package>
+                        <Import-Package>org.reflections.*;resolution:=optional,*</Import-Package>
                     </instructions>
                 </configuration>
             </plugin>
